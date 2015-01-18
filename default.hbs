@@ -31,13 +31,14 @@
 </head>
 <body class="{{body_class}}">
 <div id="main-content" role="main" class="pure-g-r">
-    <aside id="main-sidebar" class="pure-u-1-2" style="background-image:url({{@blog.cover}})">
+    <aside id="main-sidebar" class="pure-u-1-4" style="background-image:url({{@blog.cover}})">
         {{> aside}}
     </aside>
-    <section id="main" class="pure-u-1-2">
+    <section id="main" class="pure-u-3-4">
         {{{body}}}
     </section>
 </div>
+
 
 {{! Ghost outputs important scripts and data with this tag }}
 {{ghost_foot}}
