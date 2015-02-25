@@ -27,11 +27,16 @@ body,
 .pure-g-r [class *= "pure-u"] {
   font: 16px/160% $font-family-light;
   font-weight: 400;
+  line-height: 1.8em;
 }
 
 html,
 button {
   -webkit-font-smoothing: antialiased;
+}
+
+code {
+  background-color: darken($background-main, 10);
 }
 
 h1, h2, h3, h4, h5 {
