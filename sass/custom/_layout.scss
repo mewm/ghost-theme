@@ -73,7 +73,11 @@ body {
 .post-meta {
   font-size: .6875em;
   color: $text-color-grey;
-  text-transform: uppercase
+  text-transform: uppercase;
+  
+  a {
+	font-weight: 700;
+  }
 }
 
 .post-meta-data {

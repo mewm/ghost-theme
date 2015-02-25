@@ -757,6 +757,7 @@ https://github.com/yui/pure/blob/master/LICENSE.md
 .button {
   font: normal 0.6875em "Merriweather", "Helvetica Neue", Helvetica, sans-serif, Helvetica, sans-serif;
   padding: 1.5em 0 1.2em;
+  font-weight: 700;
   border: none;
   background: none;
   text-align: center;
@@ -766,22 +767,22 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   text-transform: uppercase;
 }
 
-/* line 25, ../../sass/custom/_lookandfeel.scss */
+/* line 26, ../../sass/custom/_lookandfeel.scss */
 .button-default {
   background: #e48b00;
 }
-/* line 27, ../../sass/custom/_lookandfeel.scss */
+/* line 28, ../../sass/custom/_lookandfeel.scss */
 .button-default:hover {
   background: #333;
 }
 
-/* line 32, ../../sass/custom/_lookandfeel.scss */
+/* line 33, ../../sass/custom/_lookandfeel.scss */
 .button-keep-reading {
   margin: 3em auto 0;
   max-width: 12em;
 }
 
-/* line 37, ../../sass/custom/_lookandfeel.scss */
+/* line 38, ../../sass/custom/_lookandfeel.scss */
 .spinner {
   display: block;
   position: fixed;
@@ -792,7 +793,7 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   right: calc(50% + 22px);
 }
 
-/* line 45, ../../sass/custom/_lookandfeel.scss */
+/* line 46, ../../sass/custom/_lookandfeel.scss */
 .spinner-icon {
   width: 18px;
   height: 18px;
@@ -810,14 +811,14 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   animation-fill-mode: both;
 }
 
-/* line 55, ../../sass/custom/_lookandfeel.scss */
+/* line 56, ../../sass/custom/_lookandfeel.scss */
 hr {
   width: 100%;
   border: none;
   border-bottom: 1px solid #DADADA;
 }
 
-/* line 61, ../../sass/custom/_lookandfeel.scss */
+/* line 62, ../../sass/custom/_lookandfeel.scss */
 div[id^='___comments_'], div[id^='___comments_'] iframe {
   width: 100% !important;
 }
@@ -1014,7 +1015,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 47, ../../sass/custom/_typography.scss */
-h2, h2 a {
+h2, h2 a, h3, h3 a {
   padding-bottom: .5em;
   border-bottom: 1px solid #DADADA;
 }
@@ -1398,37 +1399,41 @@ body.nav-open {
   color: #454545;
   text-transform: uppercase;
 }
+/* line 78, ../../sass/custom/_layout.scss */
+.post-meta a {
+  font-weight: 700;
+}
 
-/* line 79, ../../sass/custom/_layout.scss */
+/* line 83, ../../sass/custom/_layout.scss */
 .post-meta-data {
   padding-right: 2.25em;
 }
-/* line 83, ../../sass/custom/_layout.scss */
+/* line 87, ../../sass/custom/_layout.scss */
 .post-meta-data [class*="icon-"] {
   font-size: 1.5em;
   color: #333;
   vertical-align: middle;
   margin: -2px 3px 0 0;
 }
-/* line 90, ../../sass/custom/_layout.scss */
+/* line 94, ../../sass/custom/_layout.scss */
 .post-meta-data:last-of-type {
   padding: 0;
 }
-/* line 94, ../../sass/custom/_layout.scss */
+/* line 98, ../../sass/custom/_layout.scss */
 .post-meta-data:only-of-type {
   padding: 0;
   float: left !important;
 }
 
-/* line 100, ../../sass/custom/_layout.scss */
+/* line 104, ../../sass/custom/_layout.scss */
 .pagination {
   padding-top: .5em;
 }
-/* line 103, ../../sass/custom/_layout.scss */
+/* line 107, ../../sass/custom/_layout.scss */
 .pagination .older-posts {
   float: right;
 }
-/* line 106, ../../sass/custom/_layout.scss */
+/* line 110, ../../sass/custom/_layout.scss */
 .pagination .newer-posts {
   float: left;
 }
