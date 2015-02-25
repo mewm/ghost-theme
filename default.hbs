@@ -25,6 +25,9 @@
     <link rel="icon" type="image/x-icon" href="{{asset "/images/favicon.ico"}}" />
     <link rel="shortcut icon" type="image/x-icon" href="{{asset "/images/favicon.ico"}}" />
 
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/sunburst.min.css">
+	
+	
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 
@@ -50,5 +53,8 @@
 {{#if post}}
     <script async type="text/javascript" src="//apis.google.com/js/plusone.js?callback=gpcb"></script>
 {{/if}}
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
